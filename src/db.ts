@@ -3,7 +3,6 @@ import { RawKey } from 'simplest.db/lib/typings/base';
 
 
 export interface DBmodel {
-    id: string,
     color: string,
     value: string
 }
