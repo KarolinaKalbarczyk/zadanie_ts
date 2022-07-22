@@ -13,7 +13,7 @@ export const getFirstData: Handler = (req, res) => {
     //res.send(db.values)
 }
 
-//zwraca dane z rekordu o id = ( wskazane - 1)
+//zwraca dane z rekordu o id = 2
 export const getSecondData: Handler = (req, res) => {
     res.send(db.get("2"))
 }
